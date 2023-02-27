@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Revision2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your Math's Marks:-");
+        //you can take int as well here
+        double a = sc.nextDouble();
+        System.out.println("Mechanics");
+        double b = sc.nextDouble();
+        System.out.println("Physics");
+        double c = sc.nextDouble();
+        System.out.println("CS");
+        double d = sc.nextDouble();
+        System.out.println("Graphics");
+        double e = sc.nextDouble();
+
+        double sum = a+b+c+d+e;
+        double mul = sum/150;
+        double per = mul*100;
+        System.out.println("Your score is" +per+"%" );
