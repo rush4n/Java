@@ -9,7 +9,7 @@ public class BoardPercentageCalculator {
         int marks = input.nextInt();
         System.out.print("Enter marks in Subject 1 : ");
         float sub1 = input.nextFloat();
-        System.out.print("Enter marks in Subject 2");
+        System.out.print("Enter marks in Subject 2 : ");
         float sub2 = input.nextFloat();
         System.out.print("Enter marks in Subject 3 : ");
         float sub3 = input.nextFloat();
@@ -22,9 +22,6 @@ public class BoardPercentageCalculator {
         float Percentage = (sum/totalmarks)*100;
         System.out.print("Your Percentage for your Board Exam is : ");
         System.out.println(Percentage);
-
-
-
 
 
     }
