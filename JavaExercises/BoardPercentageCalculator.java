@@ -20,10 +20,8 @@ public class BoardPercentageCalculator {
         float sum = sub1 + sub2 + sub3 + sub4 + sub5;
         int totalmarks = marks * 5;
         float Percentage = (sum/totalmarks)*100;
-        System.out.print("Your Percentage for your Board Exam is : ");
-        System.out.println(Percentage);
-
-
+        System.out.print("Your Percentage for your Board Exam is : " + Percentage);
+     
     }
 
 }
