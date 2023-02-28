@@ -8,9 +8,11 @@ public class UserInput {
         int a = input.nextInt();
         System.out.print("Enter a number : ");
         int b = input.nextInt();
-        int sum = a + b;
-        System.out.print("The sum of these numbers is : ");
-        System.out.println(sum);
+        System.out.print("Enter a number : ");
+        int c = input.nextInput():
+        int sum = a + b + c;
+        System.out.print("The sum of these numbers is : "+ sum);
+      
         System.out.print("Enter a value to see if it is an integer : ");
         boolean value = input.hasNextInt();
         System.out.println(value);
