@@ -6,7 +6,10 @@ public class VariablesAndDataTypes {
                 int num2 = 15;
                 int num3 = 30;
                 int sum = num1 + num2 + num3;
+                        int mul = num1*num2*num3;
                 System.out.println(sum);
+                        System.out.println(mul);
+                        
 
             }
     }
