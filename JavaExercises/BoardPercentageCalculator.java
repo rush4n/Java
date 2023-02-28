@@ -8,18 +8,18 @@ public class BoardPercentageCalculator {
         System.out.print("Enter the maximum marks for 1 subject : ");
         int marks = input.nextInt();
         System.out.print("Enter marks in Subject 1 : ");
-        float sub1 = input.nextFloat();
+        double sub1 = input.nextFloat();
         System.out.print("Enter marks in Subject 2 : ");
-        float sub2 = input.nextFloat();
+        double sub2 = input.nextFloat();
         System.out.print("Enter marks in Subject 3 : ");
-        float sub3 = input.nextFloat();
+        double sub3 = input.nextFloat();
         System.out.print("Enter marks in Subject 4 : ");
-        float sub4 = input.nextFloat();
+        double sub4 = input.nextFloat();
         System.out.print("Enter marks in Subject 5 : ");
-        float sub5 = input.nextFloat();
-        float sum = sub1 + sub2 + sub3 + sub4 + sub5;
-        int totalmarks = marks * 5;
-        float Percentage = (sum/totalmarks)*100;
+        double sub5 = input.nextFloat();
+        double sum = sub1 + sub2 + sub3 + sub4 + sub5;
+        double totalmarks = marks * 5;
+        double Percentage = (sum/totalmarks)*100;
         System.out.print("Your Percentage for your Board Exam is : " + Percentage);
      
     }
