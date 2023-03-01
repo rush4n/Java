@@ -2,6 +2,9 @@ package IntroductionToJava;
 public class VariablesAndDataTypes {
             public static void main(String[] args) {
                 System.out.println("The sum of these numbers is : ");
+                float a = 3.7f;
+                double b = 3.77;
+                short e = 19;
                 int num1 = 10;
                 int num2 = 15;
                 int num3 = 30;
