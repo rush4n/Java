@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Introduction {
     public static void main(String[] args){
+        // Note that String is Immutable in Java
         String name = new String("Rushan Shaikh");
         System.out.println(name);
         String name2 = "Rushan";
