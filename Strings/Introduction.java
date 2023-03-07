@@ -15,7 +15,7 @@ public class Introduction {
 
         Scanner in = new Scanner(System.in);
         String S = in.nextLine();
-        System.out.printf("The input value of Sting is : %s ", S);
+        System.out.printf("The input value of String is : %s ", S);
 
 
     }
