@@ -14,5 +14,6 @@ public class Operators {
         System.out.println(21>4&&21>7);
         // Bitwise Operator : &, |
         System.out.println(2&3);
+        System.out.println(1&3)
     }
 }
