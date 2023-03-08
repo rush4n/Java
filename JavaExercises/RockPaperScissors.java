@@ -13,14 +13,11 @@ public class RockPaperScissors {
                 2.Paper
                 3.Scissors""");
         int userInput = in.nextInt();
-        int PC = ran.nextInt(4);
+        int PC = ran.nextInt(1,4);
 
         if (userInput == PC) {
             System.out.printf("The PC's choice was %d\n", PC);
             System.out.println("That was Tie!");
-        }
-        else if(PC == 0){
-            System.out.println("This issue is yet to be resolved. Run Again!");
         }
         else if (PC == 1 && userInput == 2 ){
             System.out.printf("The PC's choice was %d\n", PC);
