@@ -1,0 +1,4 @@
+//Print Multiplication table of a given n
+      int n = 4 ;
+      for(int i =0; i<=10; i++) {
+           System.out.println(4*i);
